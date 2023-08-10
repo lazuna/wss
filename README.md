@@ -1,2 +1,4 @@
 # wss
-Web Security Server Side
+Web Security - Server Side
+
+Inspired by PortSwigger and NetworkChuck.
