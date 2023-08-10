@@ -1,0 +1,5 @@
+password_hash=HASH(password)
+IS_VALID=LOOKUP_CREDENTIALS_IN_STORE(username, password_hash)
+IF NOT IS_VALID THEN
+   RETURN Error("Invalid Username or Password!")
+ENDIF
