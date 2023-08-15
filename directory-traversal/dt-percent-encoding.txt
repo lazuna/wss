@@ -1,0 +1,4 @@
+Percent encoding (aka URL encoding)
+Note that web containers perform one level of decoding on percent encoded values from forms and URLs.
+    ..%c0%af represents ../ 
+    ..%c1%9c represents ..\ 
